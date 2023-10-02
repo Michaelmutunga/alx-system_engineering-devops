@@ -1,0 +1,2 @@
+#!/bin/bash
+cut -c1-1 input.txt | tr -d '\n' echo
