@@ -1,2 +1,2 @@
 #!/bin/bash
-while IFS= read -r line | do [ $((count++ % 2)) -eq 0 ] | echo "$line" | done
+nl -ba | grep -E '^[0-9]*[02468][[:space:]]' | cut -f2-
