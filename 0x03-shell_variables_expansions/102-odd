@@ -1,0 +1,3 @@
+#!/bin/bash
+while IFS= read -r line | do [ $((count++ % 2)) -eq 0 ] | echo "$line" | done
+
