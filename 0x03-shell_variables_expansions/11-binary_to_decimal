@@ -1,2 +1,0 @@
-#!/bin/bash
-(echo "obase=10" | tr -d '\n'| echo "ibase=2"| echo "$BINARY") | bc
